@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 auto;
+}
+
+img {
+ width:15%;
+}
+
+a:hover {
+  color: grey;
+}
+
+main h2 {
+  text-align: center;
+  background-color: grey;
+}
+
+.main__education h3 {
+  margin-bottom: 0;
+}
+
+.header__contacts span {
+  font-weight: bold;
+  font-style: italic;
+}
